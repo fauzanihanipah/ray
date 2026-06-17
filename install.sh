@@ -5,7 +5,7 @@
 # ============================================================
 
 REPO="https://raw.githubusercontent.com/chanelog/bin/main"
-RAW="https://raw.githubusercontent.com/chanelog/xray/main"
+RAW="https://raw.githubusercontent.com/fauzanihanipah/ray/main"
 SCRIPT_DIR="/etc/vpn-script"
 BIN_DIR="/usr/local/bin"
 
@@ -839,7 +839,7 @@ install_script_files() {
 
   if [[ "$ok" == "false" ]]; then
     echo -e "${RED}[ERROR]${NC} Beberapa file gagal didownload!"
-    echo -e "${YELLOW}[INFO]${NC} Pastikan repo https://github.com/chanelog/xray sudah berisi semua file"
+    echo -e "${YELLOW}[INFO]${NC} Pastikan repo https://github.com/fauzanihanipah/ray sudah berisi semua file"
     exit 1
   fi
 
